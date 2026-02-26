@@ -1,0 +1,94 @@
+{
+  "queries": [
+    {
+      "query": "What programming languages are important for ML roles?",
+      "expected_pages": [
+        1,
+        2
+      ],
+      "retrieved_pages": [
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "precision@1": 0.0,
+      "precision@3": 0.6666666666666666,
+      "recall@3": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "query": "What are the expectations for internship candidates?",
+      "expected_pages": [
+        3
+      ],
+      "retrieved_pages": [
+        3,
+        1,
+        3,
+        1
+      ],
+      "precision@1": 1.0,
+      "precision@3": 0.6666666666666666,
+      "recall@3": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "query": "What software engineering skills are needed?",
+      "expected_pages": [
+        2
+      ],
+      "retrieved_pages": [
+        2,
+        1,
+        3,
+        3,
+        1
+      ],
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@3": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "query": "What machine learning frameworks are mentioned?",
+      "expected_pages": [
+        1
+      ],
+      "retrieved_pages": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "precision@1": 1.0,
+      "precision@3": 1.0,
+      "recall@3": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "query": "What behavioral traits do companies look for?",
+      "expected_pages": [
+        3
+      ],
+      "retrieved_pages": [
+        3,
+        2,
+        2,
+        1,
+        3
+      ],
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@3": 1.0,
+      "mrr": 1.0
+    }
+  ],
+  "summary": {
+    "mean_precision@1": 0.8,
+    "mean_precision@3": 0.6,
+    "mean_recall@3": 1.0,
+    "mean_mrr": 0.9
+  }
+}
