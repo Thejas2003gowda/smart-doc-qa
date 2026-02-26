@@ -1,5 +1,5 @@
 # 📄 Smart Doc QA
-
+**[Live Demo](https://smart-doc-app-mp4nvpcbewlyldujv8zp26.streamlit.app/)**
 A production-grade RAG (Retrieval-Augmented Generation) system that lets you upload PDFs and ask natural language questions with source-cited answers.
 
 ## Architecture
